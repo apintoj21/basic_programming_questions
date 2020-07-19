@@ -9,9 +9,9 @@ def integer_array(n):
     return i_a
 
 
-def unsorted_array(a, b, l):
+def unsorted_array(a, b, array_len):
     u_a = []
-    for i in range(l + 1):
+    for i in range(array_len + 1):
         u_a.append(randint(a, b))
     return u_a
 
